@@ -7,21 +7,36 @@
     </div>
   <![endif]-->
 
-  <?php
-    do_action('get_header');
-    // Use Bootstrap's navbar if enabled in config.php
-    if (current_theme_supports('bootstrap-top-navbar')) {
-      get_template_part('templates/header-top-navbar');
-    } else {
-      get_template_part('templates/header');
-    }
-  ?>
+<header class="banner navbar navbar-default navbar-fixed-top" role="banner">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="<?php echo home_url(); ?>/"><img src="http://masonlawlor.com//smartkit/assets/images/logo.png" alt="logo-nav" width="auto" height="48px" /></a>
+    </div>
+
+    <nav class="collapse navbar-collapse" role="navigation">
+    <button type="button" class="pull-right btn btn-default navbar-btn navbar-btn">Back on Kickstarter</button>
+      <?php
+        if (has_nav_menu('primary_navigation')) :
+          wp_nav_menu(array('theme_location' => 'primary_navigation', 'menu_class' => 'nav navbar-nav'));
+        endif;
+      ?>
+      
+    </nav>
+  </div>
+</header>
+
 
   <section id="above-the-fold">
     <div class="wrap container" role="document">
       <div class="content row">
         <div class="col-sm-12 dark">
-          <h1>CREATE THE VEHICLE YOU LIVE IN.</h1>
+          <h1>No Contracts.</h1>
           <div class="col-sm-4 jack-cols">
               <img class="badges the-athlete" src="http://www.jackalopemedia.com/t4tg/the-athlete.png" alt="the-athlete" />
               <button class="btn btn-default btn-lg t4tg-hero-btn">Read Study  <i class="fa fa-chevron-right"></i></button>
