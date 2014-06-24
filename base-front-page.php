@@ -63,10 +63,9 @@
 	          <li><img class="icons" src="http://masonlawlor.com/smartkit/assets/images/1-design.png"/> Perimeter Protection</li>
 	          <li><img class="icons" src="http://masonlawlor.com/smartkit/assets/images/2-dev.png"/> Motion Detection</li>
 	          <li><img class="icons" src="http://masonlawlor.com/smartkit/assets/images/3-conversions.png"/> Smoke & CO Detection</li>
-	          <li><img class="icons" src="http://masonlawlor.com/smartkit/assets/images/4-templates.png"/> IP Surveillance</li>
 	        </ul>
-          <div class="alert alert-t4tg">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla congue sem consequat, gravida lorem eu, bibendum ipsum. Etiam commodo sem id tortor scelerisque, sed iaculis risus ultrices. Nullam lobortis rutrum lacus id consequat. Suspendisse potenti.</div>
-          <button class="btn btn-default btn-lg security-btn">Read More <i class="fa fa-chevron-right"></i></button>
+          <div class="alert alert-t4tg">Starting at <span class="price-security">$34.99</span>/m</div>
+          <button class="btn btn-default btn-lg security-btn">Pre-order <i class="fa fa-chevron-right"></i></button>
         </div>
         <div class="col-sm-6">
           <center>
@@ -82,13 +81,13 @@
       <div class="content row">
         <div class="col-sm-6">
           <h2><img class="energy-icon" src="http://masonlawlor.com/smartkit/assets/images/energy.png" /> Smart Energy</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-          Nulla congue sem consequat, gravida lorem eu, bibendum ipsum. 
-          Etiam commodo sem id tortor scelerisque, sed iaculis risus ultrices. 
-          Nullam lobortis rutrum lacus id consequat. Suspendisse potenti.</p>
-          <div class="alert alert-t4tg">Integer adipiscing iaculis ipsum, eget egestas metus euismod ac. 
-          Nam ipsum sapien, ornare a ipsum eu, mollis mollis metus.</div>
-          <button class="btn btn-default btn-lg energy-btn">Read More  <i class="fa fa-chevron-right"></i></button>
+          <ul class="big-list">
+	          <li><img class="icons" src="http://masonlawlor.com/smartkit/assets/images/1-design.png"/> Thermostat Control</li>
+	          <li><img class="icons" src="http://masonlawlor.com/smartkit/assets/images/2-dev.png"/> Light Control</li>
+	          <li><img class="icons" src="http://masonlawlor.com/smartkit/assets/images/4-templates.png"/> Energy Saving Schedules</li>
+	        </ul>
+          <div class="alert alert-t4tg">Starting at <span class="price-energy">$42.99</span>/m</div>
+          <button class="btn btn-default btn-lg energy-btn">Pre-order  <i class="fa fa-chevron-right"></i></button>
         </div>
         <div class="col-sm-6">
           <center>
@@ -104,15 +103,13 @@
       <div class="content row">
         <div class="col-sm-6">
           <h2><img class="auto-icon" src="http://masonlawlor.com/smartkit/assets/images/automation.png" /> Home Automation</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-          Nulla congue sem consequat, gravida lorem eu, bibendum ipsum. 
-          Etiam commodo sem id tortor scelerisque, sed iaculis risus ultrices. 
-          Nullam lobortis rutrum lacus id consequat. Suspendisse potenti. 
-          Donec luctus enim et ligula tristique ornare. 
-          Nam dignissim congue est, ut placerat augue.</p>
-          <div class="alert alert-t4tg">Integer adipiscing iaculis ipsum, eget egestas metus euismod ac. 
-          Nam ipsum sapien, ornare a ipsum eu, mollis mollis metus.</div>
-          <button class="btn btn-default btn-lg auto-btn">Read More  <i class="fa fa-chevron-right"></i></button>
+          <ul class="big-list">
+	          <li><img class="icons" src="http://masonlawlor.com/smartkit/assets/images/1-design.png"/> Door Lock Control</li>
+	          <li><img class="icons" src="http://masonlawlor.com/smartkit/assets/images/3-conversions.png"/> Mood Presets</li>
+	          <li><img class="icons" src="http://masonlawlor.com/smartkit/assets/images/4-templates.png"/> Wifi Surveillance</li>
+	        </ul>
+          <div class="alert alert-t4tg">Starting at <span class="price-auto">$56.99</span>/m</div>
+          <button class="btn btn-default btn-lg auto-btn">Pre-order  <i class="fa fa-chevron-right"></i></button>
         </div>
         <div class="col-sm-6">
           <center>
@@ -128,8 +125,9 @@
       <div class="content row">
         <div class="col-sm-12">
 	          <h1>The new definition of Smart Home.</h1>
-          <h3>Take that <span class="smart-home">Vivint!</span></h3>
-          <center><button type="button" class="btn btn-default security-btn">Back on Indiegogo</button></center>
+          <h3>Pre-order your <span class="smart-home">SmartKit</span> on Indiegogo</h3>
+          <center><button type="button" class="btn btn-default security-btn">Back on Indiegogo</button>
+          <a href="#"><p>Subscribe</p></a></center>
           
         </div>
       </div><!-- /.content -->
