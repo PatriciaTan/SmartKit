@@ -20,7 +20,7 @@
     </div>
 
     <nav class="collapse navbar-collapse" role="navigation">
-    <button type="button" class="pull-right btn btn-default navbar-btn navbar-btn">Back on Kickstarter</button>
+    <button type="button" class="pull-right btn btn-default navbar-btn navbar-btn">Back on Indiegogo</button>
       <?php
         if (has_nav_menu('primary_navigation')) :
           wp_nav_menu(array('theme_location' => 'primary_navigation', 'menu_class' => 'nav navbar-nav'));
@@ -37,6 +37,7 @@
       <div class="content row">
         <div class="col-sm-12 dark">
           <h1>No Contracts.</h1>
+          <h3>How's that for a Smart Home?</h3>
           <div class="col-sm-4 jack-cols">
               <img class="badges the-athlete" src="http://www.jackalopemedia.com/t4tg/the-athlete.png" alt="the-athlete" />
               <button class="btn btn-default btn-lg t4tg-hero-btn">Read Study  <i class="fa fa-chevron-right"></i></button>
