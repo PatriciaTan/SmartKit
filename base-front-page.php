@@ -20,7 +20,7 @@
     </div>
 
     <nav class="collapse navbar-collapse" role="navigation">
-    <button type="button" class="pull-right btn btn-default navbar-btn navbar-btn">Back on Indiegogo</button>
+    <button type="button" class="pull-right btn btn-default security-btn">Back on Indiegogo</button>
       <?php
         if (has_nav_menu('primary_navigation')) :
           wp_nav_menu(array('theme_location' => 'primary_navigation', 'menu_class' => 'nav navbar-nav'));
@@ -40,15 +40,15 @@
           <h3>How's that for a Smart Home?</h3>
           <div class="col-sm-4 jack-cols">
               <img class="badges the-athlete" src="http://www.jackalopemedia.com/t4tg/the-athlete.png" alt="the-athlete" />
-              <button class="btn btn-default btn-lg t4tg-hero-btn">Read Study  <i class="fa fa-chevron-right"></i></button>
+              <p>Security</p>
           </div>
           <div class="col-sm-4 jack-cols">
               <img class="badges the-athlete" src="http://www.jackalopemedia.com/t4tg/the-fit.png" alt="the-fit" />
-              <button class="btn btn-default btn-lg t4tg-hero-btn">Read Study  <i class="fa fa-chevron-right"></i></button>
+              <p>Energy</p>
           </div>
           <div class="col-sm-4 jack-cols">
               <img class="badges the-athlete" src="http://www.jackalopemedia.com/t4tg/the-restored.png" alt="the-restored" />
-              <button class="btn btn-default btn-lg t4tg-hero-btn">Read Study  <i class="fa fa-chevron-right"></i></button>
+              <p>Automation</p>
           </div>
         </div>
       </div><!-- /.content -->
@@ -59,16 +59,14 @@
     <div class="wrap container" role="document">
       <div class="content row">
         <div class="col-sm-6">
-          <h1 class="paradigm"><i class="fa fa-yellow fa-circle-o-notch"></i> 3D MOVEMENT</h1>
+          <h2 class="paradigm"><i class="fa fa-yellow fa-circle-o-notch"></i> Home Security</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
           Nulla congue sem consequat, gravida lorem eu, bibendum ipsum. 
           Etiam commodo sem id tortor scelerisque, sed iaculis risus ultrices. 
-          Nullam lobortis rutrum lacus id consequat. Suspendisse potenti. 
-          Donec luctus enim et ligula tristique ornare. 
-          Nam dignissim congue est, ut placerat augue.</p>
+          Nullam lobortis rutrum lacus id consequat. Suspendisse potenti.</p>
           <div class="alert alert-t4tg">Integer adipiscing iaculis ipsum, eget egestas metus euismod ac. 
           Nam ipsum sapien, ornare a ipsum eu, mollis mollis metus.</div>
-          <button class="btn btn-default btn-lg t4tg-home-btn">Read More <i class="fa fa-chevron-right"></i></button>
+          <button class="btn btn-default btn-lg security-btn">Read More <i class="fa fa-chevron-right"></i></button>
         </div>
         <div class="col-sm-6">
           <center>
@@ -83,16 +81,14 @@
     <div class="wrap container" role="document">
       <div class="content row">
         <div class="col-sm-6">
-          <h1 class="paradigm"><i class="fa fa-yellow fa-cutlery"></i> Fuel & Nutrition</h1>
+          <h2 class="paradigm"><i class="fa fa-yellow fa-cutlery"></i> Smart Energy</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
           Nulla congue sem consequat, gravida lorem eu, bibendum ipsum. 
           Etiam commodo sem id tortor scelerisque, sed iaculis risus ultrices. 
-          Nullam lobortis rutrum lacus id consequat. Suspendisse potenti. 
-          Donec luctus enim et ligula tristique ornare. 
-          Nam dignissim congue est, ut placerat augue.</p>
+          Nullam lobortis rutrum lacus id consequat. Suspendisse potenti.</p>
           <div class="alert alert-t4tg">Integer adipiscing iaculis ipsum, eget egestas metus euismod ac. 
           Nam ipsum sapien, ornare a ipsum eu, mollis mollis metus.</div>
-          <button class="btn btn-default btn-lg t4tg-home-btn">Read More  <i class="fa fa-chevron-right"></i></button>
+          <button class="btn btn-default btn-lg energy-btn">Read More  <i class="fa fa-chevron-right"></i></button>
         </div>
         <div class="col-sm-6">
           <center>
@@ -107,7 +103,7 @@
     <div class="wrap container" role="document">
       <div class="content row">
         <div class="col-sm-6">
-          <h1 class="paradigm"><i class="fa fa-yellow fa-heart-o"></i> Restoration</h1>
+          <h2 class="paradigm"><i class="fa auto-btn fa-heart-o"></i> Home Automation</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
           Nulla congue sem consequat, gravida lorem eu, bibendum ipsum. 
           Etiam commodo sem id tortor scelerisque, sed iaculis risus ultrices. 
@@ -116,7 +112,7 @@
           Nam dignissim congue est, ut placerat augue.</p>
           <div class="alert alert-t4tg">Integer adipiscing iaculis ipsum, eget egestas metus euismod ac. 
           Nam ipsum sapien, ornare a ipsum eu, mollis mollis metus.</div>
-          <button class="btn btn-default btn-lg t4tg-home-btn">Read More  <i class="fa fa-chevron-right"></i></button>
+          <button class="btn btn-default btn-lg auto-btn">Read More  <i class="fa fa-chevron-right"></i></button>
         </div>
         <div class="col-sm-6">
           <center>
