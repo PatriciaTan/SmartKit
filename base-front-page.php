@@ -58,8 +58,8 @@
   <section class="home jack-things">
     <div class="wrap container" role="document">
       <div class="content row">
-        <div class="col-sm-6">
-          <h2 class="paradigm"><i class="fa fa-yellow fa-circle-o-notch"></i> Home Security</h2>
+        <div class="col-sm-6"> 
+          <h2><img class="security-icon" src="http://masonlawlor.com/smartkit/assets/images/security.png" /> Home Security</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
           Nulla congue sem consequat, gravida lorem eu, bibendum ipsum. 
           Etiam commodo sem id tortor scelerisque, sed iaculis risus ultrices. 
@@ -81,7 +81,7 @@
     <div class="wrap container" role="document">
       <div class="content row">
         <div class="col-sm-6">
-          <h2 class="paradigm"><i class="fa fa-yellow fa-cutlery"></i> Smart Energy</h2>
+          <h2><img class="energy-icon" src="http://masonlawlor.com/smartkit/assets/images/energy.png" /> Smart Energy</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
           Nulla congue sem consequat, gravida lorem eu, bibendum ipsum. 
           Etiam commodo sem id tortor scelerisque, sed iaculis risus ultrices. 
@@ -103,7 +103,7 @@
     <div class="wrap container" role="document">
       <div class="content row">
         <div class="col-sm-6">
-          <h2 class="paradigm"><i class="fa auto-btn fa-heart-o"></i> Home Automation</h2>
+          <h2><img class="auto-icon" src="http://masonlawlor.com/smartkit/assets/images/automation.png" /> Home Automation</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
           Nulla congue sem consequat, gravida lorem eu, bibendum ipsum. 
           Etiam commodo sem id tortor scelerisque, sed iaculis risus ultrices. 
@@ -127,7 +127,7 @@
     <div class="wrap container" role="document">
       <div class="content row">
         <div class="col-sm-6">
-          <h1 class="paradigm"><i class="fa fa-yellow fa-plus-circle"></i> Plus</h1>
+          <h1><i class="fa fa-yellow fa-plus-circle"></i> Plus</h1>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
           Nulla congue sem consequat, gravida lorem eu, bibendum ipsum. 
           Etiam commodo sem id tortor scelerisque, sed iaculis risus ultrices. 
