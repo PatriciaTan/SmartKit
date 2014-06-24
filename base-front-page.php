@@ -21,12 +21,11 @@
 
     <nav class="collapse navbar-collapse" role="navigation">
     <button type="button" class="pull-right btn btn-default security-btn">Back on Indiegogo</button>
-      <?php
-        if (has_nav_menu('primary_navigation')) :
-          wp_nav_menu(array('theme_location' => 'primary_navigation', 'menu_class' => 'nav navbar-nav'));
-        endif;
-      ?>
-      
+    <ul class="nav navbar-nav navbar-right">
+      <li><a title="Lightning fast" href="#home" class="scroll">Home Security</a></li>
+      <li><a title="Get in touch!" href="#single-page" class="scroll">Smart Energy</a></li>
+      <li><a title="External page sample" href="sample-page.html">Home Automation</a></li>
+    </ul>
     </nav>
   </div>
 </header>
@@ -37,18 +36,18 @@
       <div class="content row">
         <div class="col-sm-12 dark">
           <h1>No Contracts.</h1>
-          <h3>How's that for a Smart Home?</h3>
+          <h3>How's that for a <span class="smart-home">Smart Home?</span></h3>
           <div class="col-sm-4 jack-cols">
-              <img class="badges the-athlete" src="http://www.jackalopemedia.com/t4tg/the-athlete.png" alt="the-athlete" />
-              <p>Security</p>
+              <a class="hero-sections" href="#"><img src="http://masonlawlor.com//smartkit/assets/images/security-hero.png" alt="the-athlete" />
+              <h4>Security</h4></a>
           </div>
           <div class="col-sm-4 jack-cols">
-              <img class="badges the-athlete" src="http://www.jackalopemedia.com/t4tg/the-fit.png" alt="the-fit" />
-              <p>Energy</p>
+              <a class="hero-sections" href="#"><img src="http://masonlawlor.com//smartkit/assets/images/energy-hero.png" alt="the-fit" />
+              <h4>Energy</h4></a>
           </div>
           <div class="col-sm-4 jack-cols">
-              <img class="badges the-athlete" src="http://www.jackalopemedia.com/t4tg/the-restored.png" alt="the-restored" />
-              <p>Automation</p>
+              <a class="hero-sections" href="#"><img src="http://masonlawlor.com//smartkit/assets/images/automation-hero.png" alt="the-restored" />
+              <h4>Automation</h4></a>
           </div>
         </div>
       </div><!-- /.content -->
@@ -60,12 +59,11 @@
       <div class="content row">
         <div class="col-sm-6"> 
           <h2><img class="security-icon" src="http://masonlawlor.com/smartkit/assets/images/security.png" /> Home Security</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-          Nulla congue sem consequat, gravida lorem eu, bibendum ipsum. 
-          Etiam commodo sem id tortor scelerisque, sed iaculis risus ultrices. 
-          Nullam lobortis rutrum lacus id consequat. Suspendisse potenti.</p>
-          <div class="alert alert-t4tg">Integer adipiscing iaculis ipsum, eget egestas metus euismod ac. 
-          Nam ipsum sapien, ornare a ipsum eu, mollis mollis metus.</div>
+          <ul>
+		          <li>Doors/Windows</li>
+		          <li>Motion Detection</li>
+	          </ul>
+          <div class="alert alert-t4tg">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla congue sem consequat, gravida lorem eu, bibendum ipsum. Etiam commodo sem id tortor scelerisque, sed iaculis risus ultrices. Nullam lobortis rutrum lacus id consequat. Suspendisse potenti.</div>
           <button class="btn btn-default btn-lg security-btn">Read More <i class="fa fa-chevron-right"></i></button>
         </div>
         <div class="col-sm-6">
@@ -122,48 +120,14 @@
       </div><!-- /.content -->
     </div><!-- /.wrap -->
   </section>
-
-  <section class="highlight home jack-things">
-    <div class="wrap container" role="document">
-      <div class="content row">
-        <div class="col-sm-6">
-          <h1><i class="fa fa-yellow fa-plus-circle"></i> Plus</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-          Nulla congue sem consequat, gravida lorem eu, bibendum ipsum. 
-          Etiam commodo sem id tortor scelerisque, sed iaculis risus ultrices. 
-          Nullam lobortis rutrum lacus id consequat. Suspendisse potenti. 
-          Donec luctus enim et ligula tristique ornare. 
-          Nam dignissim congue est, ut placerat augue.</p>
-          <div class="alert alert-t4tg">Integer adipiscing iaculis ipsum, eget egestas metus euismod ac. 
-          Nam ipsum sapien, ornare a ipsum eu, mollis mollis metus.</div>
-          <button class="btn btn-default btn-lg t4tg-home-btn">Read More <i class="fa fa-chevron-right"></i></button>
-        </div>
-        <div class="col-sm-6">
-          <center>
-          <img class="art img-responsive" src="http://placehold.it/450x250" />
-          </center>
-        </div>
-      </div><!-- /.content -->
-    </div><!-- /.wrap -->
-  </section>
   
   <section id="bottom-cta" class="home">
     <div class="wrap container" role="document">
       <div class="content row">
         <div class="col-sm-12">
-          <h1>CREATE THE VEHICLE YOU LIVE IN.</h1>
-          <div class="col-sm-4 jack-cols">
-              <img class="badges the-athlete" src="http://www.jackalopemedia.com/t4tg/the-athlete.png" alt="the-athlete" />
-              <button class="btn btn-default btn-lg t4tg-home-btn">Read Study  <i class="fa fa-chevron-right"></i></button>
-          </div>
-          <div class="col-sm-4 jack-cols">
-              <img class="badges the-athlete" src="http://www.jackalopemedia.com/t4tg/the-fit.png" alt="the-fit" />
-              <button class="btn btn-default btn-lg t4tg-home-btn">Read Study  <i class="fa fa-chevron-right"></i></button>
-          </div>
-          <div class="col-sm-4 jack-cols">
-              <img class="badges the-athlete" src="http://www.jackalopemedia.com/t4tg/the-restored.png" alt="the-restored" />
-              <button class="btn btn-default btn-lg t4tg-home-btn">Read Study  <i class="fa fa-chevron-right"></i></button>
-          </div>
+          <h1>A whole new meaning of Smart Home.</h1>
+          <h3>Take that <span class="smart-home">Vivint!</span></h3>
+          
         </div>
       </div><!-- /.content -->
     </div><!-- /.wrap -->
