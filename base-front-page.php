@@ -125,7 +125,7 @@
     <div class="wrap container" role="document">
       <div class="content row">
         <div class="col-sm-12">
-          <h1>A whole new meaning of Smart Home.</h1>
+	          <h1>The new definition of Smart Home.</h1>
           <h3>Take that <span class="smart-home">Vivint!</span></h3>
           
         </div>
