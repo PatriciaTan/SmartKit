@@ -49,6 +49,7 @@
               <a class="hero-sections" href="#"><img src="http://masonlawlor.com//smartkit/assets/images/automation-hero.png" alt="the-restored" />
               <h4>Automation</h4></a>
           </div>
+          <center><button type="button" class="btn btn-default security-btn">Pre-order on Indiegogo</button></center>
         </div>
       </div><!-- /.content -->
     </div><!-- /.wrap -->
