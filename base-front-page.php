@@ -60,8 +60,10 @@
         <div class="col-sm-6"> 
           <h2><img class="security-icon" src="http://masonlawlor.com/smartkit/assets/images/security.png" /> Home Security</h2>
           <ul>
-		          <li>Doors/Windows</li>
+		          <li>Perimeter Protection</li>
 		          <li>Motion Detection</li>
+		          <li>Smoke & CO Detection</li>
+		          <li>IP Surveillance</li> 
 	          </ul>
           <div class="alert alert-t4tg">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla congue sem consequat, gravida lorem eu, bibendum ipsum. Etiam commodo sem id tortor scelerisque, sed iaculis risus ultrices. Nullam lobortis rutrum lacus id consequat. Suspendisse potenti.</div>
           <button class="btn btn-default btn-lg security-btn">Read More <i class="fa fa-chevron-right"></i></button>
@@ -127,6 +129,7 @@
         <div class="col-sm-12">
 	          <h1>The new definition of Smart Home.</h1>
           <h3>Take that <span class="smart-home">Vivint!</span></h3>
+          <center><button type="button" class="btn btn-default security-btn">Back on Indiegogo</button></center>
           
         </div>
       </div><!-- /.content -->
