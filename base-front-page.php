@@ -59,12 +59,12 @@
       <div class="content row">
         <div class="col-sm-6"> 
           <h2><img class="security-icon" src="http://masonlawlor.com/smartkit/assets/images/security.png" /> Home Security</h2>
-          <ul>
-		          <li>Perimeter Protection</li>
-		          <li>Motion Detection</li>
-		          <li>Smoke & CO Detection</li>
-		          <li>IP Surveillance</li> 
-	          </ul>
+		    <ul class="big-list">
+	          <li><img class="icons" src="http://masonlawlor.com/smartkit/assets/images/1-design.png"/> Perimeter Protection</li>
+	          <li><img class="icons" src="http://masonlawlor.com/smartkit/assets/images/2-dev.png"/> Motion Detection</li>
+	          <li><img class="icons" src="http://masonlawlor.com/smartkit/assets/images/3-conversions.png"/> Smoke & CO Detection</li>
+	          <li><img class="icons" src="http://masonlawlor.com/smartkit/assets/images/4-templates.png"/> IP Surveillance</li>
+	        </ul>
           <div class="alert alert-t4tg">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla congue sem consequat, gravida lorem eu, bibendum ipsum. Etiam commodo sem id tortor scelerisque, sed iaculis risus ultrices. Nullam lobortis rutrum lacus id consequat. Suspendisse potenti.</div>
           <button class="btn btn-default btn-lg security-btn">Read More <i class="fa fa-chevron-right"></i></button>
         </div>
