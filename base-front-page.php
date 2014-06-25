@@ -160,7 +160,7 @@
             <br />
             <center><form class="form-inline" role="form">
                 <input class="required" style="font-style:italic;" placeholder=" your email ..."></input>
-                <button type="submit" class="submit btn" value="download">DOWNLOAD</button>
+                <button type="submit" class="submit btn" value="download">Send it my way</button>
             </form></center><br>
           </div>
         </div>
