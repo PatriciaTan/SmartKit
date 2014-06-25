@@ -135,7 +135,7 @@
 	          <h1>The new definition of Smart Home.</h1>
           <h3>Pre-order your <span class="smart-home">SmartKit</span> on Indiegogo</h3>
           <center><button type="button" class="btn btn-default security-btn">Back on Indiegogo</button>
-          <a href="#"><p>Subscribe</p></a></center>
+          <a href="#"><p>Virtual Walk-thru: How to pick the right equipment for your home</p></a></center>
           
         </div>
       </div><!-- /.content -->
