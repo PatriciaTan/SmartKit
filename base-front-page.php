@@ -32,9 +32,14 @@
 
 
   <section id="above-the-fold">
+  	<video id="videobcg" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0">
+     		<source src="http://masonlawlor.com//smartkit/assets/video/timelapse.mp4" type="video/mp4">
+     		<source src="http://masonlawlor.com//smartkit/assets/video/timelapse.ogv" type="video/ogv">
+          Sorry, your browser does not support HTML5 video.
+	</video>
     <div class="wrap container" role="document">
       <div class="content row">
-        <div class="col-sm-12 dark">
+        <div class="col-sm-12">
           <h1>No Contracts.</h1>
           <h3>How's that for a <span class="smart-home">Smart Home?</span></h3>
           <div class="col-sm-4 jack-cols">
@@ -49,11 +54,13 @@
               <a class="hero-sections" href="#"><img src="http://masonlawlor.com//smartkit/assets/images/automation-hero.png" alt="the-restored" />
               <h4>Automation</h4></a>
           </div>
-          <center><button type="button" class="btn btn-default security-btn">Pre-order on Indiegogo</button></center>
+          <center><button type="button" class="btn btn-default hero-btn">Pre-order on Indiegogo</button></center>
         </div>
       </div><!-- /.content -->
     </div><!-- /.wrap -->
   </section>
+  
+  
 
   <section class="home jack-things">
     <div class="wrap container" role="document">
