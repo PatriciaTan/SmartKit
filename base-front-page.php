@@ -159,8 +159,8 @@
             <p>Over the next 5 days you'll receive 5 videos, giving you the expertise to simplify your life and protect the things you love.</p></center>
             <br />
             <center><form class="form-inline" role="form">
-                <input class="required" style="font-style:italic;" placeholder="your email ..."></input>
-                <button type="submit" class="btn btn-primary" value="download">DOWNLOAD</button>
+                <input class="required" style="font-style:italic;" placeholder=" your email ..."></input>
+                <button type="submit" class="submit btn" value="download">DOWNLOAD</button>
             </form></center><br>
           </div>
         </div>
