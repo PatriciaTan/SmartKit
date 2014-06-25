@@ -134,8 +134,8 @@
         <div class="col-sm-12">
 	          <h1>The new definition of Smart Home.</h1>
           <h3>Pre-order your <span class="smart-home">SmartKit</span> on Indiegogo</h3>
-          <center><button type="button" class="btn btn-default security-btn">Back on Indiegogo</button>
-          <a href="#"><p>Virtual Walk-thru: How to pick the right equipment for your home</p></a></center>
+          <center><button type="button" class="btn btn-default security-btn">Back on Indiegogo</button></center>
+          <center><a href="" data-toggle="modal" data-target="#myModal">Virtual Walk-thru: How to pick the right equipment for your home</a></center>
           
         </div>
       </div><!-- /.content -->
@@ -144,6 +144,28 @@
 
 
   <?php get_template_part('templates/footer'); ?>
+  
+  <!-- pop-up modal -->
+
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <center><h3 class="modal-title" id="myModalLabel"><span class="smart-home">VIDEO TRAINING LIBRARY</span></h3></center>
+          </div>
+          <div class="modal-body">
+            <center><h3>Equip yourself like a pro</h3><br>
+            <p>Over the next 5 days you'll receive 5 videos, giving you the expertise to simplify your life and protect the things you love.</p></center>
+            <br />
+            <center><form class="form-inline" role="form">
+                <input class="required" style="font-style:italic;" placeholder="your email ..."></input>
+                <button type="submit" class="btn btn-primary" value="download">DOWNLOAD</button>
+            </form></center><br>
+          </div>
+        </div>
+      </div>
+    </div><!-- /pop-up modal -->
 
 </body>
 </html>
