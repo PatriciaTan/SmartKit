@@ -22,9 +22,9 @@
     <nav class="collapse navbar-collapse" role="navigation">
     <button type="button" class="pull-right btn btn-default security-btn">Back on Indiegogo</button>
     <ul class="nav navbar-nav navbar-right">
-      <li><a title="Lightning fast" href="#home" class="scroll">Home Security</a></li>
-      <li><a title="Get in touch!" href="#energy" class="scroll">Smart Energy</a></li>
-      <li><a title="External page sample" href="#auto">Home Automation</a></li>
+      <li><a title="Lightning fast" href="#home" class="security-nav scroll">Home Security</a></li>
+      <li><a title="Get in touch!" href="#energy" class="scroll energy-nav">Smart Energy</a></li>
+      <li><a title="External page sample" href="#auto" class="scroll auto-nav">Home Automation</a></li>
     </ul>
     </nav>
   </div>
