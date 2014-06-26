@@ -167,6 +167,6 @@
       </div>
     </div><!-- /pop-up modal -->
     
-		<script src="http://masonlawlor.com//smrtk/wp-content/themes/SmartKit/assets/js/scripts.min.js"></script>
+	
 	</body>
 </html>
