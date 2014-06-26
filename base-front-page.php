@@ -1,5 +1,5 @@
 <?php get_template_part('templates/head'); ?>
-<body class="body-bottom">
+<body class="body-bottom" data-spy="scroll" data-target=".navbar">
 
   <!--[if lt IE 8]>
     <div class="alert alert-t4tg">
@@ -23,8 +23,8 @@
     <button type="button" class="pull-right btn btn-default security-btn">Back on Indiegogo</button>
     <ul class="nav navbar-nav navbar-right">
       <li><a title="Lightning fast" href="#home" class="scroll">Home Security</a></li>
-      <li><a title="Get in touch!" href="#single-page" class="scroll">Smart Energy</a></li>
-      <li><a title="External page sample" href="sample-page.html">Home Automation</a></li>
+      <li><a title="Get in touch!" href="#energy" class="scroll">Smart Energy</a></li>
+      <li><a title="External page sample" href="#auto">Home Automation</a></li>
     </ul>
     </nav>
   </div>
@@ -62,7 +62,7 @@
   
   
 
-  <section class="home jack-things">
+  <section id="home" class="home jack-things">
     <div class="wrap container" role="document">
       <div class="content row">
         <div class="col-sm-6"> 
@@ -84,7 +84,7 @@
     </div><!-- /.wrap -->
   </section>
 
-  <section class="highlight home jack-things">
+  <section id="energy" class="highlight home jack-things">
     <div class="wrap container" role="document">
       <div class="content row">
         <div class="col-sm-6">
@@ -106,7 +106,7 @@
     </div><!-- /.wrap -->
   </section>
 
-  <section class="home jack-things">
+  <section id="auto" class="home jack-things">
     <div class="wrap container" role="document">
       <div class="content row">
         <div class="col-sm-6">
@@ -166,6 +166,7 @@
         </div>
       </div>
     </div><!-- /pop-up modal -->
-
-</body>
+    
+		<script src="http://masonlawlor.com//smrtk/wp-content/themes/SmartKit/assets/js/scripts.min.js"></script>
+	</body>
 </html>
