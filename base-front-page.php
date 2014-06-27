@@ -138,6 +138,7 @@
           <center><a href="" data-toggle="modal" data-target="#myModal">Virtual Walk-thru: How to pick the right equipment for your home</a></center>
           
         </div>
+        <i class="fa fa-check"></i>
       </div><!-- /.content -->
     </div><!-- /.wrap -->
   </section>
