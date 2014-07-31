@@ -54,7 +54,7 @@
               <a class="hero-sections" href="#"><img src="http://masonlawlor.com//smartkit/assets/images/automation-hero.png" alt="the-restored" />
               <h4>Automation</h4></a>
           </div>
-          <center><button type="button" class="btn btn-default hero-btn">Pre-order on Indiegogo</button></center>
+          <center><button type="button" class="btn btn-default hero-btn">Play Video</button></center>
         </div>
       </div><!-- /.content -->
     </div><!-- /.wrap -->
@@ -77,7 +77,7 @@
         </div>
         <div class="col-sm-6">
           <center>
-          <img class="art img-responsive" src="http://placehold.it/450x250" />
+          <img class="art img-responsive" src="http://masonlawlor.com/smartkit/assets/images/graphics/security.png" />
           </center>
         </div>
       </div><!-- /.content -->
@@ -99,7 +99,7 @@
         </div>
         <div class="col-sm-6">
           <center>
-          <img class="art img-responsive" src="http://placehold.it/450x250" />
+          <img class="art img-responsive" src="http://masonlawlor.com/smartkit/assets/images/graphics/energy.png" />
           </center>
         </div>
       </div><!-- /.content -->
@@ -121,7 +121,7 @@
         </div>
         <div class="col-sm-6">
           <center>
-          <img class="art img-responsive" src="http://placehold.it/450x250" />
+          <img class="art img-responsive" src="http://masonlawlor.com/smartkit/assets/images/graphics/auto.png" />
           </center>
         </div>
       </div><!-- /.content -->
