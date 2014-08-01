@@ -54,7 +54,9 @@
               <a class="hero-sections" href="#"><img src="http://masonlawlor.com//smartkit/assets/images/automation-hero.png" alt="the-restored" />
               <h4>Automation</h4></a>
           </div>
-          <center><button type="button" class="btn btn-default hero-btn">Play Video</button></center>
+          <center></center>
+          <a href="//fast.wistia.net/embed/iframe/1se5qohbsh?popover=true" class="wistia-popover[height=360,playerColor=7b796a,width=640]"><button type="button" class="btn btn-default hero-btn">Play Video</button></a>
+<script charset="ISO-8859-1" src="//fast.wistia.com/assets/external/popover-v1.js"></script>
         </div>
       </div><!-- /.content -->
     </div><!-- /.wrap -->
