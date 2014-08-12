@@ -31,67 +31,22 @@
 </header>
 
 
-  <div class="supreme-container">
-
-<script language="JavaScript">
-  <!--
-    function _submit_form(frm){
-      var email = frm.email.value;
-      var valid_email = /^([a-zA-Z0-9_.-])+@(([a-zA-Z0-9-])+.)+([a-zA-Z0-9]{2,4})+$/;
-      
-      if( valid_email.test( email ) ){
-        document.getElementById('before').style.display = 'none';
-        document.getElementById('after').style.display = 'block';
-        return true;
-      } else {
-        alert("Invalid email address");
-      }
-      return false;
-    }
-//-->
-</script>
-
-<script type="text/javascript"
-        src="//cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.3.1/jquery.cookie.min.js"></script>
-  <script type="text/javascript">
-    function showPopup() {
-      $('#myModal').modal('show');
-    }
-
-    function timeOut() {
-      if ($.cookie('foreverjobless') !== '1') {
-        setTimeout(function() {
-          showPopup();
-          jQuery.cookie('foreverjobless', '1', { expires: 7 });
-        }, 60000);
-      }
-    }
-
-    $(document).ready(function () {
-      timeOut();
-      stickyElement();
-    });
-
-  </script>
-
-   <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <!--<button type="button" class="close" style="margin-right: 10px;margin-top: 5px;" data-dismiss="modal" aria-hidden="true">&times;</button>-->
-          <div class="modal-body">
-    			
-    			<div class="col-sm-10 col-sm-offset-1 modal-video"><!-- Video -->
-				 	<div class="row"> 
-					 	<center>
-					 		<iframe onClick="ga('send', 'event', 'video', 'play', 'main video');" src="//fast.wistia.net/embed/iframe/5tl43fy1m9?videoFoam=true" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="668" height="376"></iframe>
-					 		<script src='//fast.wistia.com/static/iframe-api-v1.js'></script>
-					 	</center>
-					</div>
-				</div> <!-- /Video -->
-    		</div>
-        <h4 class="optin-h4">Subscribe below and I'll dare you to be great.</h4><!-- optin -->
+<div class="wrap container">
+  <div class="col-sm-8 col-sm-offset-2"><!-- Video -->
+	  <div class="row"> 
+	    <center>
+	      <iframe onClick="ga('send', 'event', 'video', 'play', 'main video');" src="//fast.wistia.net/embed/iframe/ayvzkgovfs?videoFoam=true" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="668" height="376"></iframe>
+	      <script src='//fast.wistia.com/static/iframe-api-v1.js'></script>
+	    </center>
+    </div>
+  </div> <!-- /Video -->
+    
+  <div class="alert-header col-sm-10 col-sm-offset-1"><!-- Optin -->
+      <div class="row">
+        <h4 class="optin-h4">Subscribe below and I'll dare you to be great.</h4>
+      </div>
 	  <div class="row">
-	      <div class="top-optin col-sm-offset-3">
+	      <div class="top-optin col-sm-offset-4">
 	      
 	      <!-- Mailchimp -->
 			<form class="form-inline" id="before_header" action="//howdareyou.us8.list-manage.com/subscribe/post?u=4c05f20503bc3a9d84d1a63c9&amp;id=488afa7633" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
@@ -99,12 +54,13 @@
 			<button id="header-optin-click" name="submit" onClick="ga('send', 'event', 'optin', 'subscribe', 'header optin');" class="submit btn btn-primary btn-lg" type="submit" value="Submit" tabindex="501">I Dare</button>
 			
 			</form> <!-- /Mailchimp -->
-	      </div><!-- /optin -->
-		  <br><br>
-          </div>
-        </div>
+	      </div>
       </div>
-    </div>  
+    </div>
+  </div>
+</div>
+<br />
+<hr>
   
 
   <section id="home" class="home jack-things">
@@ -173,6 +129,8 @@
     </div><!-- /.wrap -->
   </section>
   
+<hr>
+  
   <section id="bottom-cta" class="home">
     <div class="wrap container" role="document">
       <div class="content row">
@@ -191,27 +149,78 @@
 
   <?php get_template_part('templates/footer'); ?>
   
-  <!-- pop-up modal -->
+<!-- pop-up modal -->
+<script language="JavaScript">
+  <!--
+    function _submit_form(frm){
+      var email = frm.email.value;
+      var valid_email = /^([a-zA-Z0-9_.-])+@(([a-zA-Z0-9-])+.)+([a-zA-Z0-9]{2,4})+$/;
+      
+      if( valid_email.test( email ) ){
+        document.getElementById('before').style.display = 'none';
+        document.getElementById('after').style.display = 'block';
+        return true;
+      } else {
+        alert("Invalid email address");
+      }
+      return false;
+    }
+//-->
+</script>
 
-    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<script type="text/javascript"
+        src="//cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.3.1/jquery.cookie.min.js"></script>
+  <script type="text/javascript">
+    function showPopup() {
+      $('#myModal').modal('show');
+    }
+
+    function timeOut() {
+      if ($.cookie('foreverjobless') !== '1') {
+        setTimeout(function() {
+          showPopup();
+          jQuery.cookie('foreverjobless', '1', { expires: 7 });
+        }, 60);
+      }
+    }
+
+    $(document).ready(function () {
+      timeOut();
+      stickyElement();
+    });
+
+</script>
+
+   <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-            <center><h3 class="modal-title" id="myModalLabel"><span class="smart-home">VIDEO TRAINING LIBRARY</span></h3></center>
-          </div>
           <div class="modal-body">
-            <center><h3>Equip yourself like a pro</h3><br>
-            <p>Over the next 5 days you'll receive 5 videos, giving you the expertise to simplify your life and protect the things you love.</p></center>
-            <br />
-            <center><form class="form-inline" role="form">
-                <input class="required" style="font-style:italic;" placeholder=" your email ..."></input>
-                <button type="submit" class="submit btn" value="download">Send it my way</button>
-            </form></center><br>
+    			<div class="col-sm-10 col-sm-offset-1 modal-video"><!-- Video -->
+				 	<div class="row"> 
+					 	<center>
+					 		<iframe onClick="ga('send', 'event', 'video', 'play', 'main video');" src="//fast.wistia.net/embed/iframe/5tl43fy1m9?videoFoam=true" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="668" height="376"></iframe>
+					 		<script src='//fast.wistia.com/static/iframe-api-v1.js'></script>
+					 	</center>
+					</div>
+				</div> <!-- /Video -->
+    		</div>
+        <h4 class="optin-h4">Subscribe below and I'll dare you to be great.</h4><!-- optin -->
+	  <div class="row">
+	      <div class="top-optin col-sm-offset-3">
+	      
+	      <!-- Mailchimp -->
+			<form class="form-inline" id="before_header" action="//howdareyou.us8.list-manage.com/subscribe/post?u=4c05f20503bc3a9d84d1a63c9&amp;id=488afa7633" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+				<input type="email" value="" name="EMAIL" class="form-control email" id="mce-EMAIL" placeholder="Email address.." required>
+			<button id="header-optin-click" name="submit" onClick="ga('send', 'event', 'optin', 'subscribe', 'header optin');" class="submit btn btn-primary btn-lg" type="submit" value="Submit" tabindex="501">I Dare</button>
+			
+			</form> <!-- /Mailchimp -->
+	      </div><!-- /optin -->
+		  <br><br>
           </div>
         </div>
       </div>
-    </div><!-- /pop-up modal -->
+    </div>  
+<!-- /pop-up modal -->
     
 	
 	</body>
