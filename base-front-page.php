@@ -31,37 +31,97 @@
 </header>
 
 
-  <section id="above-the-fold">
-  	<video id="videobcg" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0">
-     		<source src="http://masonlawlor.com//smartkit/assets/video/timelapse.mp4" type="video/mp4">
-     		<source src="http://masonlawlor.com//smartkit/assets/video/timelapse.ogv" type="video/ogv">
-          Sorry, your browser does not support HTML5 video.
-	</video>
-    <div class="wrap container" role="document">
-      <div class="content row">
-        <div class="col-sm-12">
-          <h1>No Contracts.</h1>
-          <h3>How's that for a <span class="smart-home">Smart Home?</span></h3>
-          <div class="col-sm-4 jack-cols">
-              <a class="hero-sections" href="#"><img src="http://masonlawlor.com//smartkit/assets/images/security-hero.png" alt="the-athlete" />
-              <h4>Security</h4></a>
+  <div class="supreme-container">
+
+  <div class="wrap container" role="document">
+    <div class="content row">
+      <main class="main <?php echo roots_main_class(); ?>" role="main">
+        <?php include roots_template_path(); ?>
+      </main><!-- /.main -->
+      <?php if (roots_display_sidebar()) : ?>
+        <aside class="sidebar <?php echo roots_sidebar_class(); ?>" role="complementary">
+          <?php include roots_sidebar_path(); ?>
+        </aside><!-- /.sidebar -->
+      <?php endif; ?>
+    </div><!-- /.content -->
+  </div><!-- /.wrap -->
+
+  <?php get_template_part('templates/footer'); ?>
+
+    </div> <!-- SUPREME -->
+
+<script language="JavaScript">
+  <!--
+    function _submit_form(frm){
+      var email = frm.email.value;
+      var valid_email = /^([a-zA-Z0-9_.-])+@(([a-zA-Z0-9-])+.)+([a-zA-Z0-9]{2,4})+$/;
+      
+      if( valid_email.test( email ) ){
+        document.getElementById('before').style.display = 'none';
+        document.getElementById('after').style.display = 'block';
+        return true;
+      } else {
+        alert("Invalid email address");
+      }
+      return false;
+    }
+//-->
+</script>
+
+<script type="text/javascript"
+        src="//cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.3.1/jquery.cookie.min.js"></script>
+  <script type="text/javascript">
+    function showPopup() {
+      $('#myModal').modal('show');
+    }
+
+    function timeOut() {
+      if ($.cookie('foreverjobless') !== '1') {
+        setTimeout(function() {
+          showPopup();
+          jQuery.cookie('foreverjobless', '1', { expires: 7 });
+        }, 60000);
+      }
+    }
+
+    $(document).ready(function () {
+      timeOut();
+      stickyElement();
+    });
+
+  </script>
+
+   <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <!--<button type="button" class="close" style="margin-right: 10px;margin-top: 5px;" data-dismiss="modal" aria-hidden="true">&times;</button>-->
+          <div class="modal-body">
+    			
+    			<div class="col-sm-10 col-sm-offset-1 modal-video"><!-- Video -->
+				 	<div class="row"> 
+					 	<center>
+					 		<iframe onClick="ga('send', 'event', 'video', 'play', 'main video');" src="//fast.wistia.net/embed/iframe/5tl43fy1m9?videoFoam=true" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="668" height="376"></iframe>
+					 		<script src='//fast.wistia.com/static/iframe-api-v1.js'></script>
+					 	</center>
+					</div>
+				</div> <!-- /Video -->
+    		</div>
+        <h4 class="optin-h4">Subscribe below and I'll dare you to be great.</h4><!-- optin -->
+	  <div class="row">
+	      <div class="top-optin col-sm-offset-3">
+	      
+	      <!-- Mailchimp -->
+			<form class="form-inline" id="before_header" action="//howdareyou.us8.list-manage.com/subscribe/post?u=4c05f20503bc3a9d84d1a63c9&amp;id=488afa7633" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+				<input type="email" value="" name="EMAIL" class="form-control email" id="mce-EMAIL" placeholder="Email address.." required>
+			<button id="header-optin-click" name="submit" onClick="ga('send', 'event', 'optin', 'subscribe', 'header optin');" class="submit btn btn-primary btn-lg" type="submit" value="Submit" tabindex="501">I Dare</button>
+			
+			</form> <!-- /Mailchimp -->
+	      </div><!-- /optin -->
+		  <br><br>
           </div>
-          <div class="col-sm-4 jack-cols">
-              <a class="hero-sections" href="#"><img src="http://masonlawlor.com//smartkit/assets/images/energy-hero.png" alt="the-fit" />
-              <h4>Energy</h4></a>
-          </div>
-          <div class="col-sm-4 jack-cols">
-              <a class="hero-sections" href="#"><img src="http://masonlawlor.com//smartkit/assets/images/automation-hero.png" alt="the-restored" />
-              <h4>Automation</h4></a>
-          </div>
-          <center></center>
-          <a href="//fast.wistia.net/embed/iframe/ayvzkgovfs?popover=true" class="wistia-popover[height=360,playerColor=7b796a,width=640]"><button type="button" class="btn btn-default hero-btn">Play Video</button></a>
-<script charset="ISO-8859-1" src="//fast.wistia.com/assets/external/popover-v1.js"></script>
         </div>
-      </div><!-- /.content -->
-    </div><!-- /.wrap -->
-  </section>
-  
+      </div>
+    </div>  
   
 
   <section id="home" class="home jack-things">
