@@ -11,7 +11,7 @@
     </div>
 
     <nav class="collapse navbar-collapse" role="navigation">
-    <button type="button" class="pull-right btn btn-default security-btn">Back on Kickstarter</button>
+    <button type="button" class="pull-right btn btn-default nav-btn">Back on Kickstarter</button>
       <?php
         if (has_nav_menu('primary_navigation')) :
           wp_nav_menu(array('theme_location' => 'primary_navigation', 'menu_class' => 'nav navbar-nav'));
@@ -32,13 +32,13 @@
     
   <div class="alert-header col-sm-10 col-sm-offset-1"><!-- Optin -->
       <div class="row">
-        <h4 class="optin-h4">Learn how to crowd fund from the pros.</h4>
+        <h4 class="optin-h4">Be the first to know when we launch!</h4>
       </div>
 	  <div class="row">
 	      <div class="top-optin col-sm-offset-4">
 	      
 	      <!-- Mailchimp -->
-			<form class="form-inline" id="before_header" action="//crowdfundation.us8.list-manage.com/subscribe/post?u=b5ab0ee8523c581e9a88b3e27&amp;id=14d13d7b64" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+			<form class="form-inline" id="before_header" action="//smartk.us8.list-manage.com/subscribe/post?u=99a776394eb3b3549e7c5e53c&amp;id=628848161c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
 				<input type="email" value="" name="EMAIL" class="form-control email" id="mce-EMAIL" placeholder="Email address.." required>
 			<button id="header-optin-click" name="submit" onClick="ga('send', 'event', 'optin', 'subscribe', 'header optin');" class="submit btn btn-primary btn-lg" type="submit" value="Submit" tabindex="501">Subscribe</button>
 			

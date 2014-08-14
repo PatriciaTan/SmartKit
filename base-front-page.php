@@ -23,6 +23,9 @@
   <section id="home" class="home jack-things">
     <div class="wrap container" role="document">
       <div class="content row">
+      	<div class="col-sm-4 col-sm-offset-2">
+          	<img class="art img-responsive" src="http://masonlawlor.com/smartkit/assets/images/graphics/security.png" />
+        </div>
         <div class="col-sm-6"> 
           <h2><img class="security-icon" src="http://masonlawlor.com/smartkit/assets/images/security.png" /> Home Security</h2>
 		    <ul class="big-list">
@@ -30,13 +33,12 @@
 	          <li><img class="icons" src="http://masonlawlor.com/smartkit/assets/images/2-dev.png"/> Motion Detection</li>
 	          <li><img class="icons" src="http://masonlawlor.com/smartkit/assets/images/3-conversions.png"/> Smoke & CO Detection</li>
 	        </ul>
-          <div class="alert alert-t4tg">Starting at <span class="price-security">$34.99</span>/m</div>
-          <button class="btn btn-default btn-lg security-btn">Pre-order <i class="fa fa-chevron-right"></i></button>
+	        <div class="alert alert-t4tg">Starting at <span class="price-security">$34.99</span>/m</div>
         </div>
-        <div class="col-sm-6">
-          <!--<center>
-          <img class="art img-responsive" src="http://masonlawlor.com/smartkit/assets/images/graphics/security.png" />
-          </center>-->
+      </div>
+      <div class="row">
+        <div class="col-sm-12">
+          <button class="btn btn-default btn-lg security-btn">Pre-order <i class="fa fa-chevron-right"></i></button>
         </div>
       </div><!-- /.content -->
     </div><!-- /.wrap -->
@@ -45,6 +47,9 @@
   <section id="energy" class="highlight home jack-things">
     <div class="wrap container" role="document">
       <div class="content row">
+      	<div class="col-sm-4 col-sm-offset-2">
+          <img class="art img-responsive" src="http://masonlawlor.com/smartkit/assets/images/graphics/energy.png" />
+        </div>
         <div class="col-sm-6">
           <h2><img class="energy-icon" src="http://masonlawlor.com/smartkit/assets/images/energy.png" /> Smart Energy</h2>
           <ul class="big-list">
@@ -53,12 +58,11 @@
 	          <li><img class="icons" src="http://masonlawlor.com/smartkit/assets/images/4-templates.png"/> Energy Saving Schedules</li>
 	        </ul>
           <div class="alert alert-t4tg">Starting at <span class="price-energy">$42.99</span>/m</div>
-          <button class="btn btn-default btn-lg energy-btn">Pre-order  <i class="fa fa-chevron-right"></i></button>
         </div>
-        <div class="col-sm-6">
-          <center>
-          <img class="art img-responsive" src="http://masonlawlor.com/smartkit/assets/images/graphics/energy.png" />
-          </center>
+      </div>
+      <div class="row">
+      	<div class="col-sm-12">
+          <button class="btn btn-default btn-lg energy-btn">Pre-order  <i class="fa fa-chevron-right"></i></button>
         </div>
       </div><!-- /.content -->
     </div><!-- /.wrap -->
@@ -67,6 +71,9 @@
   <section id="auto" class="home jack-things">
     <div class="wrap container" role="document">
       <div class="content row">
+      <div class="col-sm-4 col-sm-offset-2">
+          <img class="art img-responsive" src="http://masonlawlor.com/smartkit/assets/images/graphics/auto.png" />
+        </div>
         <div class="col-sm-6">
           <h2><img class="auto-icon" src="http://masonlawlor.com/smartkit/assets/images/automation.png" /> Home Automation</h2>
           <ul class="big-list">
@@ -75,12 +82,11 @@
 	          <li><img class="icons" src="http://masonlawlor.com/smartkit/assets/images/4-templates.png"/> Wifi Surveillance</li>
 	        </ul>
           <div class="alert alert-t4tg">Starting at <span class="price-auto">$56.99</span>/m</div>
-          <button class="btn btn-default btn-lg auto-btn">Pre-order  <i class="fa fa-chevron-right"></i></button>
         </div>
-        <div class="col-sm-6">
-          <center>
-          <img class="art img-responsive" src="http://masonlawlor.com/smartkit/assets/images/graphics/auto.png" />
-          </center>
+      </div>
+      <div class="row">
+      	<div class="col-sm-12">
+          <button class="btn btn-default btn-lg auto-btn">Pre-order  <i class="fa fa-chevron-right"></i></button>
         </div>
       </div><!-- /.content -->
     </div><!-- /.wrap -->
@@ -96,9 +102,7 @@
           <h3>Pre-order your <span class="smart-home">SmartKit</span> on Kickstarter</h3>
           <center><button type="button" class="btn btn-default security-btn">Back on Kickstarter</button></center>
           <center><a href="" data-toggle="modal" data-target="#myModal">Virtual Walk-thru: How to pick the right equipment for your home</a></center>
-          
         </div>
-        <i class="fa fa-check"></i>
       </div><!-- /.content -->
     </div><!-- /.wrap -->
   </section>
@@ -137,7 +141,7 @@
         setTimeout(function() {
           showPopup();
           jQuery.cookie('foreverjobless', '1', { expires: 7 });
-        }, 4000);
+        }, 240000);
       }
     }
 
@@ -165,7 +169,7 @@
     		</div>
     	<br>	
         <h4 class="optin-h4">stupid bug, buggin me </h4><!-- optin -->
-        <h4 class="optin-h4">Be the first to know when we launch!!</h4><!-- optin -->
+        <h4 class="">Be the first to know when we launch!!</h4><!-- optin -->
 	  <div class="row">
 	      <div class="top-optin col-sm-offset-3">
 	      
