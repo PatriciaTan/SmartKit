@@ -34,9 +34,9 @@
           <button class="btn btn-default btn-lg security-btn">Pre-order <i class="fa fa-chevron-right"></i></button>
         </div>
         <div class="col-sm-6">
-          <center>
+          <!--<center>
           <img class="art img-responsive" src="http://masonlawlor.com/smartkit/assets/images/graphics/security.png" />
-          </center>
+          </center>-->
         </div>
       </div><!-- /.content -->
     </div><!-- /.wrap -->
@@ -137,7 +137,7 @@
         setTimeout(function() {
           showPopup();
           jQuery.cookie('foreverjobless', '1', { expires: 7 });
-        }, 60);
+        }, 4000);
       }
     }
 
@@ -151,24 +151,28 @@
    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
+          <!--<button type="button" class="close" style="margin-right: 10px;margin-top: 5px;" data-dismiss="modal" aria-hidden="true">&times;</button>-->
           <div class="modal-body">
+    			
     			<div class="col-sm-10 col-sm-offset-1 modal-video"><!-- Video -->
 				 	<div class="row"> 
 					 	<center>
-					 		<iframe onClick="ga('send', 'event', 'video', 'play', 'main video');" src="//fast.wistia.net/embed/iframe/5tl43fy1m9?videoFoam=true" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="668" height="376"></iframe>
+					 		<iframe src="//fast.wistia.net/embed/iframe/6y2igsba97?videoFoam=true" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="640" height="360"></iframe><script src="//fast.wistia.net/assets/external/iframe-api-v1.js"></script>
 					 		<script src='//fast.wistia.com/static/iframe-api-v1.js'></script>
 					 	</center>
 					</div>
 				</div> <!-- /Video -->
     		</div>
-        <h4 class="optin-h4">Subscribe below and I'll dare you to be great.</h4><!-- optin -->
+    	<br>	
+        <h4 class="optin-h4">stupid bug, buggin me </h4><!-- optin -->
+        <h4 class="optin-h4">Be the first to know when we launch!!</h4><!-- optin -->
 	  <div class="row">
 	      <div class="top-optin col-sm-offset-3">
 	      
 	      <!-- Mailchimp -->
-			<form class="form-inline" id="before_header" action="//howdareyou.us8.list-manage.com/subscribe/post?u=4c05f20503bc3a9d84d1a63c9&amp;id=488afa7633" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+			<form class="form-inline" id="before_header" action="//smartk.us8.list-manage.com/subscribe/post?u=99a776394eb3b3549e7c5e53c&amp;id=628848161c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
 				<input type="email" value="" name="EMAIL" class="form-control email" id="mce-EMAIL" placeholder="Email address.." required>
-			<button id="header-optin-click" name="submit" onClick="ga('send', 'event', 'optin', 'subscribe', 'header optin');" class="submit btn btn-primary btn-lg" type="submit" value="Submit" tabindex="501">I Dare</button>
+			<button id="header-optin-click" name="submit" onClick="ga('send', 'event', 'optin', 'subscribe', 'header optin');" class="submit btn btn-primary btn-lg" type="submit" value="Submit" tabindex="501">Subscribe</button>
 			
 			</form> <!-- /Mailchimp -->
 	      </div><!-- /optin -->
