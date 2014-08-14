@@ -57,7 +57,7 @@
     
   <div class="alert-header col-sm-10 col-sm-offset-1"><!-- Optin -->
       <div class="row">
-        <h4 class="optin-h4">Be the first to know when we launch!</h4>
+        <center><h4 class="optin-h4">Be the first to know when we launch!</h4></center>
       </div>
 	  <div class="row">
 	      <div class="top-optin col-sm-offset-4">
