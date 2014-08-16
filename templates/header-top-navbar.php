@@ -21,33 +21,18 @@
   </div>
 </header>
 
-<div class="wrap container">
-  <div class="col-sm-8 col-sm-offset-2"><!-- Video -->
-	  <div class="row"> 
-	    <center>
-	      <iframe src="//fast.wistia.net/embed/iframe/6y2igsba97?videoFoam=true" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="640" height="360"></iframe><script src="//fast.wistia.net/assets/external/iframe-api-v1.js"></script>
-	    </center>
-    </div>
-  </div> <!-- /Video -->
-    
-  <div class="alert-header col-sm-10 col-sm-offset-1"><!-- Optin -->
-      <div class="row">
-        <h4 class="optin-h4">Be the first to know when we launch!</h4>
-      </div>
-	  <div class="row">
-	      <div class="top-optin col-sm-offset-4">
-	      
-	      <!-- Mailchimp -->
-			<form class="form-inline" id="before_header" action="//smartk.us8.list-manage.com/subscribe/post?u=99a776394eb3b3549e7c5e53c&amp;id=628848161c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-				<input type="email" value="" name="EMAIL" class="form-control email" id="mce-EMAIL" placeholder="Email address.." required>
-			<button id="header-optin-click" name="submit" onClick="ga('send', 'event', 'optin', 'subscribe', 'header optin');" class="submit btn btn-primary btn-lg" type="submit" value="Submit" tabindex="501">Subscribe</button>
-			
-			</form> <!-- /Mailchimp -->
-	      </div>
-      </div>
-    </div>
-  </div>
-</div>
+  <section id="bottom-cta" class="home">
+    <div class="wrap container" role="document">
+      <div class="content row">
+        <div class="col-sm-12">
+	          <h1>Rationality meets smart home.</h1>
+          <h3>No contracts.</h3>
+          <center><button type="button" class="btn btn-default cta-btn blog-cta">Play video</button></center>
+          <center><a href="" data-toggle="modal" data-target="#myModal">Virtual Walk-thru: How to pick the right equipment for your home</a></center>
+        </div>
+      </div><!-- /.content -->
+    </div><!-- /.wrap -->
+  </section>
 <br />
 <hr>
 
