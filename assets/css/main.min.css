@@ -5794,19 +5794,19 @@ body {
   color: #858585;
 }
 h1 {
-  font-family: 'Avenir Black', helvetica, serif;
+  font-family: 'Avenir Black', serif;
   font-weight: 600;
   color: #545454;
   font-size: 72px;
 }
 h2 {
-  font-family: 'Avenir LT', helvetica, serif;
+  font-family: 'Avenir LT', serif;
   font-weight: 100;
   font-size: 48px;
   color: #6d6d6d;
 }
 h3 {
-  font-family: 'Avenir LT', helvetica, serif;
+  font-family: 'Avenir LT', serif;
   font-weight: 200;
   font-size: 30px;
   letter-spacing: 3px;
@@ -5820,7 +5820,7 @@ h4 {
   font-size: 18px;
 }
 .smart-home {
-  font-family: 'Avenir Black', helvetica, serif;
+  font-family: 'Avenir Black', serif;
 }
 .price-security {
   color: #db713a;
@@ -5868,43 +5868,11 @@ h4 {
   padding: 18px 24px 12px 24px;
   color: #fff;
 }
-.nav-btn {
-  padding: 18px 24px 12px 24px;
-  border-top: 2px solid #d43131;
-  border-bottom: 2px solid #dc2d8d;
-  margin: 20px auto;
-  display: block;
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#d43131), to(#dc2d8d));
-  background-image: -webkit-linear-gradient(#d43131, #dc2d8d);
-  background-image: -moz-linear-gradient(#d43131, #dc2d8d), -moz-linear-gradient(#d43131, #dc2d8d);
-  background-image: -o-linear-gradient(#d43131, #dc2d8d), -o-linear-gradient(#d43131, #dc2d8d);
-  background-image: linear-gradient(#d43131, #dc2d8d), linear-gradient(#d43131, #dc2d8d);
-  -moz-background-size: 2px 100%;
-  background-size: 2px 100%;
-  background-position: 0 0, 100% 0;
-  background-repeat: no-repeat;
-  font-family: 'Avenir LT', helvetica, serif;
-}
-.nav-btn:hover {
-  border-top: 2px solid #dc2d8d;
-  border-bottom: 2px solid #d43131;
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#dc2d8d), to(#d43131));
-  background-image: -webkit-linear-gradient(#dc2d8d, #d43131);
-  background-image: -moz-linear-gradient(#dc2d8d, #d43131), -moz-linear-gradient(#dc2d8d, #d43131);
-  background-image: -o-linear-gradient(#dc2d8d, #d43131), -o-linear-gradient(#dc2d8d, #d43131);
-  background-image: linear-gradient(#dc2d8d, #d43131), linear-gradient(#dc2d8d, #d43131);
-  -moz-background-size: 2px 100%;
-  background-size: 2px 100%;
-  background-position: 0 0, 100% 0;
-  background-repeat: no-repeat;
-  background-color: #fff;
-}
 .security-btn {
   padding: 18px 24px 12px 24px;
   border-top: 2px solid #d43131;
   border-bottom: 2px solid #dc2d8d;
-  margin: 60px auto 0px auto;
-  display: block;
+  margin: 20px auto;
   background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#d43131), to(#dc2d8d));
   background-image: -webkit-linear-gradient(#d43131, #dc2d8d);
   background-image: -moz-linear-gradient(#d43131, #dc2d8d), -moz-linear-gradient(#d43131, #dc2d8d);
@@ -5914,7 +5882,7 @@ h4 {
   background-size: 2px 100%;
   background-position: 0 0, 100% 0;
   background-repeat: no-repeat;
-  font-family: 'Avenir LT', helvetica, serif;
+  font-family: 'Avenir LT', serif;
 }
 .security-btn:hover {
   border-top: 2px solid #dc2d8d;
@@ -5934,8 +5902,7 @@ h4 {
   padding: 18px 24px 12px 24px;
   border-top: 2px solid #40d8b3;
   border-bottom: 2px solid #25a5ca;
-  margin: 60px auto 0px auto;
-  display: block;
+  margin: 20px auto;
   background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#40d8b3), to(#25a5ca));
   background-image: -webkit-linear-gradient(#40d8b3, #25a5ca);
   background-image: -moz-linear-gradient(#40d8b3, #25a5ca), -moz-linear-gradient(#40d8b3, #25a5ca);
@@ -5945,8 +5912,6 @@ h4 {
   background-size: 2px 100%;
   background-position: 0 0, 100% 0;
   background-repeat: no-repeat;
-  background-color: #F7F7F7;
-  font-family: 'Avenir LT', helvetica, serif;
 }
 .energy-btn:hover {
   border-top: 2px solid #25a5ca;
@@ -5960,14 +5925,13 @@ h4 {
   background-size: 2px 100%;
   background-position: 0 0, 100% 0;
   background-repeat: no-repeat;
-  background-color: #F7F7F7;
+  background-color: #fff;
 }
 .auto-btn {
   padding: 18px 24px 12px 24px;
   border-top: 2px solid #9540d0;
   border-bottom: 2px solid #e733a5;
-  margin: 60px auto 0px auto;
-  display: block;
+  margin: 20px auto;
   background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#9540d0), to(#e733a5));
   background-image: -webkit-linear-gradient(#9540d0, #e733a5);
   background-image: -moz-linear-gradient(#9540d0, #e733a5), -moz-linear-gradient(#9540d0, #e733a5);
@@ -5977,7 +5941,6 @@ h4 {
   background-size: 2px 100%;
   background-position: 0 0, 100% 0;
   background-repeat: no-repeat;
-  font-family: 'Avenir LT', helvetica, serif;
 }
 .auto-btn:hover {
   border-top: 2px solid #e733a5;
@@ -5987,37 +5950,6 @@ h4 {
   background-image: -moz-linear-gradient(#e733a5, #9540d0), -moz-linear-gradient(#e733a5, #9540d0);
   background-image: -o-linear-gradient(#e733a5, #9540d0), -o-linear-gradient(#e733a5, #9540d0);
   background-image: linear-gradient(#e733a5, #9540d0), linear-gradient(#e733a5, #9540d0);
-  -moz-background-size: 2px 100%;
-  background-size: 2px 100%;
-  background-position: 0 0, 100% 0;
-  background-repeat: no-repeat;
-  background-color: #fff;
-}
-.cta-btn {
-  padding: 18px 24px 12px 24px;
-  border-top: 2px solid #d43131;
-  border-bottom: 2px solid #dc2d8d;
-  margin: 60px auto 40px auto;
-  display: block;
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#d43131), to(#dc2d8d));
-  background-image: -webkit-linear-gradient(#d43131, #dc2d8d);
-  background-image: -moz-linear-gradient(#d43131, #dc2d8d), -moz-linear-gradient(#d43131, #dc2d8d);
-  background-image: -o-linear-gradient(#d43131, #dc2d8d), -o-linear-gradient(#d43131, #dc2d8d);
-  background-image: linear-gradient(#d43131, #dc2d8d), linear-gradient(#d43131, #dc2d8d);
-  -moz-background-size: 2px 100%;
-  background-size: 2px 100%;
-  background-position: 0 0, 100% 0;
-  background-repeat: no-repeat;
-  font-family: 'Avenir LT', helvetica, serif;
-}
-.cta-btn:hover {
-  border-top: 2px solid #dc2d8d;
-  border-bottom: 2px solid #d43131;
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#dc2d8d), to(#d43131));
-  background-image: -webkit-linear-gradient(#dc2d8d, #d43131);
-  background-image: -moz-linear-gradient(#dc2d8d, #d43131), -moz-linear-gradient(#dc2d8d, #d43131);
-  background-image: -o-linear-gradient(#dc2d8d, #d43131), -o-linear-gradient(#dc2d8d, #d43131);
-  background-image: linear-gradient(#dc2d8d, #d43131), linear-gradient(#dc2d8d, #d43131);
   -moz-background-size: 2px 100%;
   background-size: 2px 100%;
   background-position: 0 0, 100% 0;
@@ -6137,26 +6069,6 @@ a:hover {
   background-image: -moz-linear-gradient(#9540d0, #e733a5), -moz-linear-gradient(#9540d0, #e733a5);
   background-image: -o-linear-gradient(#9540d0, #e733a5), -o-linear-gradient(#9540d0, #e733a5);
   background-image: linear-gradient(#9540d0, #e733a5), linear-gradient(#9540d0, #e733a5);
-  -moz-background-size: 2px 100%;
-  background-size: 2px 100%;
-  background-position: 0 0, 100% 0;
-  background-repeat: no-repeat;
-  background-color: #fff;
-  border-radius: 4px;
-}
-.submit:hover {
-  height: 52px;
-  margin-top: -3px;
-  color: #3d3d3d !important;
-  padding: 13px 24px 12px 24px;
-  border-top: 2px solid #e733a5;
-  border-bottom: 2px solid #9540d0;
-  margin: 20px auto;
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#e733a5), to(#9540d0));
-  background-image: -webkit-linear-gradient(#e733a5, #9540d0);
-  background-image: -moz-linear-gradient(#e733a5, #9540d0), -moz-linear-gradient(#e733a5, #9540d0);
-  background-image: -o-linear-gradient(#e733a5, #9540d0), -o-linear-gradient(#e733a5, #9540d0);
-  background-image: linear-gradient(#e733a5, #9540d0), linear-gradient(#e733a5, #9540d0);
   -moz-background-size: 2px 100%;
   background-size: 2px 100%;
   background-position: 0 0, 100% 0;
@@ -6317,6 +6229,7 @@ ul {
 }
 .body-bottom {
   margin-bottom: 25px;
+  margin-top: 50px;
 }
 .jack-things {
   margin-top: 50px;
@@ -6348,13 +6261,16 @@ ul {
 .home .art {
   position: relative;
   top: 50%;
+  transform: translateY(5%);
   width: auto;
 }
 @media (min-width: 768px) {
   .home .art {
     position: relative;
     top: 50%;
+    transform: translateY(45%);
     width: auto;
+    margin-top: -200px;
   }
 }
 /***********************/
@@ -6463,15 +6379,4 @@ aside {
 .copyright {
   text-indent: 14px;
   color: #bbb;
-}
-/***********************/
-/* Modal */
-/***********************/
-.optin-h4 {
-  text-align: center;
-  padding: 12px;
-  margin-top: -8px;
-}
-.modal-video {
-  padding-bottom: 18px;
 }
