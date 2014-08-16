@@ -21,14 +21,32 @@
   </div>
 </header>
 
-  <section id="bottom-cta" class="home">
+  <section id="above-the-fold">
+  	<video id="videobcg" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0">
+     		<source src="http://masonlawlor.com//smartkit/assets/video/timelapse.mp4" type="video/mp4">
+     		<source src="http://masonlawlor.com//smartkit/assets/video/timelapse.ogv" type="video/ogv">
+          Sorry, your browser does not support HTML5 video.
+	</video>
     <div class="wrap container" role="document">
       <div class="content row">
         <div class="col-sm-12">
-	          <h1>Rationality meets smart home.</h1>
-          <h3>No contracts.</h3>
-          <center><button type="button" class="btn btn-default cta-btn blog-cta">Play video</button></center>
-          <center><a href="" data-toggle="modal" data-target="#myModal">Virtual Walk-thru: How to pick the right equipment for your home</a></center>
+          <h1>No Contracts.</h1>
+          <h3>How's that for a <span class="smart-home">Smart Home?</span></h3>
+          <div class="col-sm-4 jack-cols">
+              <a class="hero-sections" href="#"><img src="http://masonlawlor.com//smartkit/assets/images/security-hero.png" alt="the-athlete" />
+              <h4>Security</h4></a>
+          </div>
+          <div class="col-sm-4 jack-cols">
+              <a class="hero-sections" href="#"><img src="http://masonlawlor.com//smartkit/assets/images/energy-hero.png" alt="the-fit" />
+              <h4>Energy</h4></a>
+          </div>
+          <div class="col-sm-4 jack-cols">
+              <a class="hero-sections" href="#"><img src="http://masonlawlor.com//smartkit/assets/images/automation-hero.png" alt="the-restored" />
+              <h4>Automation</h4></a>
+          </div>
+          <center></center>
+          <a href="//fast.wistia.net/embed/iframe/1se5qohbsh?popover=true" class="wistia-popover[height=360,playerColor=7b796a,width=640]"><button type="button" class="btn hero-btn hero-btn-sides">Play Video</button></a>
+<script charset="ISO-8859-1" src="//fast.wistia.com/assets/external/popover-v1.js"></script>
         </div>
       </div><!-- /.content -->
     </div><!-- /.wrap -->
