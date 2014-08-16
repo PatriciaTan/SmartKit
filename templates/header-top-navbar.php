@@ -32,8 +32,13 @@
         <div class="col-sm-12">
           <h1>No Contracts.</h1>
           <h3>How's that for a <span class="smart-home">Smart Home?</span></h3>
-          <div class="col-sm-4 jack-cols">
-              <a class="hero-sections" href="#"><img src="http://masonlawlor.com//smartkit/assets/images/security-hero.png" alt="the-athlete" />
+          <a href="//fast.wistia.net/embed/iframe/6y2igsba97?popover=true" class="wistia-popover[height=360,playerColor=ebe9e8,width=640]"><img src="https://embed-ssl.wistia.com/deliveries/f1bd9016d491b25c2af006aefcd2023bcf92e9ce.jpg?image_play_button=true&image_play_button_color=ebe9e8e0&image_crop_resized=300x168" alt="" /></a>
+<script charset="ISO-8859-1" src="//fast.wistia.com/assets/external/popover-v1.js"></script>
+<script charset="ISO-8859-1" src="//fast.wistia.com/assets/external/popover-v1.js"></script>
+        </div>
+          <div class="col-sm-12 jack-cols">
+			  <button type="button" class="btn btn-default hero-btn">Back on Kickstarter</button>
+              <!--<a class="hero-sections" href="#"><img src="http://masonlawlor.com//smartkit/assets/images/security-hero.png" alt="the-athlete" />
               <h4>Security</h4></a>
           </div>
           <div class="col-sm-4 jack-cols">
@@ -42,11 +47,8 @@
           </div>
           <div class="col-sm-4 jack-cols">
               <a class="hero-sections" href="#"><img src="http://masonlawlor.com//smartkit/assets/images/automation-hero.png" alt="the-restored" />
-              <h4>Automation</h4></a>
+              <h4>Automation</h4></a>-->
           </div>
-          <center></center>
-          <a href="//fast.wistia.net/embed/iframe/1se5qohbsh?popover=true" class="wistia-popover[height=360,playerColor=7b796a,width=640]"><button type="button" class="btn hero-btn hero-btn-sides">Play Video</button></a>
-<script charset="ISO-8859-1" src="//fast.wistia.com/assets/external/popover-v1.js"></script>
         </div>
       </div><!-- /.content -->
     </div><!-- /.wrap -->
