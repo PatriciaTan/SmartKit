@@ -54,5 +54,4 @@
     </div><!-- /.wrap -->
   </section>
 <br />
-<hr>
 
