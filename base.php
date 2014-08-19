@@ -16,24 +16,6 @@
       get_template_part('templates/header');
     }
   ?>
-  <div class="blog-hero">
-    <div class="wrap container">
-    <div class="row">
-      <div class="col-sm-2 col-sm-offset-1 t4tg-circle">
-        <img src="/exp/wp-content/themes/jasontreu/assets/img/jasoncircle.png">
-        <p>Ralph Waldo</p>
-        <p>Socialite</p>
-      </div>
-      <div class="col-sm-8">
-        <div class="header-optin">
-          <h2>Learn How You Can Meet 100-200 People a Week:
-          <a data-toggle="modal" data-target="#myModal" style="cursor:pointer;">The Art of Meeting People</a></h2>
-          <button class="btn btn-default btn-lg t4tg-home-btn">Read Study  <i class="fa fa-chevron-right"></i></button>
-        </div>
-      </div>
-    </div>
-  </div>
-  </div>
 
   <div class="wrap container" role="document">
     <div class="content row">
