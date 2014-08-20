@@ -100,7 +100,7 @@
         <div class="col-sm-12">
 	          <h1>Rationality meets smart home.</h1>
           <h3>Pre-order your <span class="smart-home">SmartKit</span> on Kickstarter</h3>
-          <center><button type="button" class="btn btn-default cta-btn blog-cta">Back on Kickstarter</button></center>
+          <center><button href="" type="button" class="btn btn-default cta-btn blog-cta"  data-toggle="modal" data-target="#myModal">Back on Kickstarter</button></center>
           <center><a href="" data-toggle="modal" data-target="#myModal">Virtual Walk-thru: How to pick the right equipment for your home</a></center>
         </div>
       </div><!-- /.content -->
@@ -123,7 +123,7 @@
         setTimeout(function() {
           showPopup();
           jQuery.cookie('foreverjobless', '1', { expires: 7 });
-        }, 360000);
+        }, 36);
       }
     }
 
@@ -137,7 +137,7 @@
    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
-        	<center><h4>Be the first to know when we launch!</h4></center>
+        	<center><h3>We haven't launched yet!<br>Be the first to know when we launch.</h3></center>
           	<div class="modal-body">
           	<center><a href="//fast.wistia.net/embed/iframe/6y2igsba97?popover=true" class="wistia-popover[height=360,playerColor=ebe9e8,width=640]"><img src="https://embed-ssl.wistia.com/deliveries/f1bd9016d491b25c2af006aefcd2023bcf92e9ce.jpg?image_play_button=true&image_play_button_color=ebe9e8e0&image_crop_resized=300x168" alt="" /></a>
 <script charset="ISO-8859-1" src="//fast.wistia.com/assets/external/popover-v1.js"></script>
@@ -145,11 +145,11 @@
     			
 	      
 					      <!-- Mailchimp -->
-							<form class="form-inline" id="before_header" action="//howdareyou.us8.list-manage.com/subscribe/post?u=4c05f20503bc3a9d84d1a63c9&amp;id=488afa7633" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+							<center><form class="form-inline" id="before_header" action="//howdareyou.us8.list-manage.com/subscribe/post?u=4c05f20503bc3a9d84d1a63c9&amp;id=488afa7633" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
 								<input type="email" value="" name="EMAIL" class="form-control email" id="mce-EMAIL" placeholder="Email address.." required>
-							<button id="header-optin-click" name="submit" onClick="ga('send', 'event', 'optin', 'subscribe', 'header optin');" class="submit btn btn-primary btn-lg" type="submit" value="Submit" tabindex="501">I Dare</button>
+							<button id="header-optin-click" name="submit" onClick="ga('send', 'event', 'optin', 'subscribe', 'header optin');" class="submit btn btn-primary btn-lg" type="submit" value="Submit" tabindex="501">Subscribe</button>
 							
-							</form> <!-- /Mailchimp -->
+							</form></center> <!-- /Mailchimp -->
 	      </div><!-- /optin -->
 		  <br><br>
           </div>
