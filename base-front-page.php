@@ -29,9 +29,9 @@
         <div class="col-sm-6"> 
           <h2><img class="security-icon" src="http://masonlawlor.com/smartkit/assets/images/security.png" /> Home Security</h2>
 		    <ul class="big-list">
-	          <li><img class="icons" src="http://masonlawlor.com/smartkit/assets/images/1-design.png"/> Perimeter Protection</li>
-	          <li><img class="icons" src="http://masonlawlor.com/smartkit/assets/images/2-dev.png"/> Motion Detection</li>
-	          <li><img class="icons" src="http://masonlawlor.com/smartkit/assets/images/3-conversions.png"/> Smoke & CO Detection</li>
+	          <li><img class="icons" src="http://masonlawlor.com//smartkdotit/wp-content/themes/SmartKit/assets/img/icons/1-perimeter.png"/> Perimeter Protection</li>
+	          <li><img class="icons motion" src="http://masonlawlor.com//smartkdotit/wp-content/themes/SmartKit/assets/img/icons/2-motion.png"/> Motion Detection</li>
+	          <li><img class="icons" src="http://masonlawlor.com//smartkdotit/wp-content/themes/SmartKit/assets/img/icons/3-smoke.png"/> Smoke & CO Detection</li>
 	        </ul>
 	        <div class="alert alert-t4tg">Starting at <span class="price-security">$34.99</span>/m</div>
         </div>
@@ -53,9 +53,9 @@
         <div class="col-sm-6">
           <h2><img class="energy-icon" src="http://masonlawlor.com/smartkit/assets/images/energy.png" /> Smart Energy</h2>
           <ul class="big-list">
-	          <li><img class="icons" src="http://masonlawlor.com/smartkit/assets/images/1-design.png"/> Thermostat Control</li>
-	          <li><img class="icons" src="http://masonlawlor.com/smartkit/assets/images/2-dev.png"/> Light Control</li>
-	          <li><img class="icons" src="http://masonlawlor.com/smartkit/assets/images/4-templates.png"/> Energy Saving Schedules</li>
+	          <li><img class="icons" src="http://masonlawlor.com//smartkdotit/wp-content/themes/SmartKit/assets/img/icons/4-temp.png"/> Thermostat Control</li>
+	          <li><img class="icons motion" src="http://masonlawlor.com//smartkdotit/wp-content/themes/SmartKit/assets/img/icons/5-lights.png"/> Light Control</li>
+	          <li><img class="icons" src="http://masonlawlor.com//smartkdotit/wp-content/themes/SmartKit/assets/img/icons/6-sched.png"/> Energy Saving Schedules</li>
 	        </ul>
           <div class="alert alert-t4tg">Starting at <span class="price-energy">$42.99</span>/m</div>
         </div>
@@ -77,9 +77,9 @@
         <div class="col-sm-6">
           <h2><img class="auto-icon" src="http://masonlawlor.com/smartkit/assets/images/automation.png" /> Home Automation</h2>
           <ul class="big-list">
-	          <li><img class="icons" src="http://masonlawlor.com/smartkit/assets/images/1-design.png"/> Door Lock Control</li>
-	          <li><img class="icons" src="http://masonlawlor.com/smartkit/assets/images/3-conversions.png"/> Mood Presets</li>
-	          <li><img class="icons" src="http://masonlawlor.com/smartkit/assets/images/4-templates.png"/> Wifi Surveillance</li>
+	          <li><img class="icons" src="http://masonlawlor.com//smartkdotit/wp-content/themes/SmartKit/assets/img/icons/7-locks.png"/> Door Lock Control</li>
+	          <li><img class="icons" src="http://masonlawlor.com//smartkdotit/wp-content/themes/SmartKit/assets/img/icons/8-moods.png"/> Mood Presets</li>
+	          <li><img class="icons" src="http://masonlawlor.com//smartkdotit/wp-content/themes/SmartKit/assets/img/icons/9-cams.png"/> Wifi Surveillance</li>
 	        </ul>
           <div class="alert alert-t4tg">Starting at <span class="price-auto">$56.99</span>/m</div>
         </div>
