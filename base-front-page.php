@@ -99,8 +99,8 @@
       <div class="content row">
         <div class="col-sm-12">
 	          <h1>Rationality meets smart home.</h1>
-          <h3>Pre-order your <span class="smart-home">SmartKit</span> on Kickstarter</h3>
-          <center><button href="" type="button" class="btn btn-default cta-btn blog-cta"  data-toggle="modal" data-target="#myModal">Back on Kickstarter</button></center>
+          <h3>Pre-order your <span class="smart-home">SmartKit</span> on Indiegogo</h3>
+          <center><button href="" type="button" class="btn btn-default cta-btn blog-cta"  data-toggle="modal" data-target="#myModal">Back on Indiegogo</button></center>
           <center><a href="" data-toggle="modal" data-target="#myModal">Virtual Walk-thru: How to pick the right equipment for your home</a></center>
         </div>
       </div><!-- /.content -->
@@ -145,7 +145,7 @@
 					      <!-- Mailchimp -->
 							<center><form class="form-inline" id="before_header" action="//smartk.us8.list-manage.com/subscribe/post?u=99a776394eb3b3549e7c5e53c&amp;id=628848161c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
 								<input type="email" value="" name="EMAIL" class="form-control email" id="mce-EMAIL" placeholder="Email address.." required>
-							<button id="header-optin-click" name="submit" onClick="ga('send', 'event', 'optin', 'subscribe', 'header optin');" class="btn hero-btn btn-lg" type="submit" value="Submit" tabindex="501">Subscribe</button>
+							<button id="header-optin-click" name="submit" onClick="ga('send', 'event', 'optin', 'subscribe', 'header optin');" class="btn modal-btn btn-lg" type="submit" value="Submit" tabindex="501">Subscribe</button>
 							
 							</form></center> <!-- /Mailchimp -->
 	      </div><!-- /optin -->
