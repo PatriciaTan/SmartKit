@@ -25,8 +25,8 @@
     <div class="wrap container" role="document">
       <div class="content row">
         <div class="col-sm-12">
-          <h1>No Contracts.</h1>
-          <h3>How's that for a <span class="smart-home">Smart Home?</span></h3>
+          <h1>Secure is Smart.</h1>
+          <h3>The most secure <span class="smart-home">smarthome</span> in the world.</h3>
           <a href="//fast.wistia.net/embed/iframe/d011xn7ttu?popover=true" class="wistia-popover[height=360,playerColor=ebe9e8,width=640]"><img src="https://embed-ssl.wistia.com/deliveries/f1bd9016d491b25c2af006aefcd2023bcf92e9ce.jpg?image_play_button=true&image_play_button_color=ebe9e8e0&image_crop_resized=300x168" alt="" /></a>
 <script charset="ISO-8859-1" src="//fast.wistia.com/assets/external/popover-v1.js"></script>
 <script charset="ISO-8859-1" src="//fast.wistia.com/assets/external/popover-v1.js"></script>
